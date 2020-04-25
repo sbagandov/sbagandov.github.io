@@ -5,8 +5,6 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
 
   <title>Information Visualization Project</title>
 
@@ -19,7 +17,7 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/grayscale.css" rel="stylesheet">
+  <link href="css/project.css" rel="stylesheet">
 
 </head>
 
@@ -78,7 +76,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="text-white mb-4">Project Info</h2>
-          <p class="text-white-50">During a time when everyone is quarantining at home, we decided to spend our time at home creating visualizations to look at how the number of coronavirus cases per state have affected the Google search queries for that state when compared to one year ago.</p>
+          <p class="text-white-50">During a time when everyone is quarantining at home, we decided to spend our time at home creating visualizations to look at how the <a href="https://covidtracking.com/data" target="blank" data-toggle="tooltip" data-placement="top" style="white-space: nowrap;" title="Coronavirus data is from the Covid Tracking Project. Click the link to visit their website to look at the original dataset."><strong>number of coronavirus cases</strong></a> per state have affected the <a href="https://trends.google.com/trends/?geo=US" target="blank" data-toggle="tooltip" data-placement="top" style="white-space: nowrap;" title="Google search query data was collected from Google Trends. Click the link to visit the Google Trends website."><strong>Google search queries</strong></a> for that state when compared to one year ago.</p>
           <p></p>
           <p class="text-white-50">Some patterns were expected, but others were very surprising. We present our visualizations to you so that you can easily analyze the data and create your own conclusions.</p>
         </div>
@@ -91,11 +89,12 @@
     <div class="container">
       <h2 class="mb-4" style="text-align: center;">State Map Overview</h2>
             <p></p>
-            <p class="text-black-50 mb-0">Our initial thought was to have a look at which states were most interested in the search term 'coronavirus' and if those periods of peaked interest were correlated to the number of confirmed coronavirus cases for that state.</p>
+            <p class="text-black-50 mb-0">Our initial thought was to have a look at which states were most interested in the <a href="#" data-toggle="tooltip" data-placement="top" title="Average interest level from Google Trends was calculated for the search terms 'coronavirus', 'covid', and 'corona' for each state."><strong>coronavirus-related</strong></a> search terms and if those periods of peaked interest were correlated to the number of confirmed coronavirus cases for that state.</p>
             <p></p>
-            <p class="text-black-50 mb-0">The state map below shows all fifty states and it allows you to move through dates from January 1, 2020 until April 15, 2020. <strong>The shade of blue becomes darker for a state as the 'coronavirus' interest level for that state increases.</strong> You can hover over the states to see the total number of confirmed coronavirus cases for the chosen day.</p>
+            <p class="text-black-50 mb-0">The state map below shows all fifty states and it allows you to move through dates from January 1, 2020 until April 15, 2020. <strong>The shade of blue becomes darker for a state as the average coronavirus interest level for that state increases.</strong> You can hover over the states to see the total number of confirmed coronavirus cases for the chosen day.</p>
             <p></p>
-            <p class="text-black-50 mb-0">This visualization is okay at providing a look at the 'coronavirus' interest level, but unfortunately, it leaves it up to us to hover over a state to find any information about the confirmed cases for that state, so this is not the best visualization for this task.</p>
+            <p class="text-black-50 mb-0">This visualization is okay at providing a look at the coronavirus interest level, but unfortunately, it leaves it up to us to hover over a state to find any information about the confirmed cases for that state, so this is not the best visualization for this task.</p>
+            <p></p>
 
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
@@ -151,7 +150,7 @@
     <div class="container">
       <div class="col-xl-12" style="margin-bottom: 10%">
             <h2 class="mb-4" style="text-align: center;">Historical Trends vs Current Trends</h2>
-            <p class="text-black-50 mb-0">Below you will find the Rising and Top queries from Google Trends for the month of March over the past five years. Use the arrows to switch between the different categories provided by Google Trends.</p>
+            <p class="text-black-50 mb-0">Below you will find the Rising and Top queries from Google Trends for the month of March over the past five years for the entire USA. Use the arrows to switch between 17 different categories of search queries to see how each one has changed or stayed the same over time.</p>
             <p></p>
             <p class="text-black-50 mb-0">While we want to leave the analysis up to you, we found it very interesting how the patterns in certain categories for the Top queries remained very consistent over time up until a notable shift for in interest 2020. One specific example is the Top Queries over the past five years for the Hobbies & Leisure category.</p>
             <p></p>
@@ -184,21 +183,26 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <h4 class="text-uppercase m-0">Dillon Ecklund</h4>
+              <h4 class="text-uppercase m-0"><a href="https://github.com/djecklund" target="blank">Dillon Ecklund</a></h4>
               <hr class="my-4">
               <div class="small text-black-50">UA Little Rock Graduate Student</div>
+                            <div class="small text-black-50">Spring 2020</div>
+
             </div>
+
           </div>
         </div>
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <h4 class="text-uppercase m-0">Murali Davuluri</h4>
+              <h4 class="text-uppercase m-0"><a href="mailto:mdavuluri@ualr.edu">Murali Davuluri</a></h4>
               <hr class="my-4">
               <div class="small text-black-50">
                 UA Little Rock Graduate Student
               </div>
+                            <div class="small text-black-50">Spring 2020</div>
+
             </div>
           </div>
         </div>
@@ -206,9 +210,11 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <h4 class="text-uppercase m-0">Stephanie Bagandov</h4>
+              <h4 class="text-uppercase m-0"><a href="https://www.linkedin.com/in/sbagandov/" target="blank">Stephanie Bagandov</a></h4>
               <hr class="my-4">
               <div class="small text-black-50">UA Little Rock Graduate Student</div>
+              <div class="small text-black-50">Spring 2020</div>
+
             </div>
           </div>
         </div>
@@ -227,15 +233,23 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
+  <script src="js/project.min.js"></script>
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
   <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+  </script>
 </body>
 
 </html>
